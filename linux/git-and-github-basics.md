@@ -46,3 +46,4 @@ cat : Read file contents.
 - [ ] Learn git commit.
 - [ ] Learn git push.
 - [ ] Learn git pull.
+- [ ] Practise Git pull from GitHub.
