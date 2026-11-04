@@ -54,3 +54,64 @@ Verified file content:
 `Day 3: I created my first Linux file.`
 
 **Status:** Linux fundamentals — beginner practice in progress.
+
+## Linux Commands – File Management (Day 4)
+
+### 1. cp – Copy a file
+Copies a file from one name to another.
+
+```bash
+cp a.txt b.txt
+```
+
+### 2. mv – Move a file
+Moves a file into another directory.
+
+```bash
+mv a.txt Documents/
+```
+
+### 3. rm – Delete a file
+Deletes a file.
+
+```bash
+rm a.txt
+```
+
+### 4. rmdir – Delete an empty folder
+Removes an empty directory.
+
+```bash
+rmdir test
+```
+
+### 5. head – Display first 10 lines
+Shows the first 10 lines of a file.
+
+```bash
+head notes.txt
+```
+
+### 6. tail – Display last 10 lines
+Shows the last 10 lines of a file.
+
+```bash
+tail notes.txt
+```
+
+### 7. less – Read long files
+Opens a file for scrolling and reading.
+
+```bash
+less notes.txt
+```
+
+**Important:** Press `q` to exit `less`.
+
+### Learning Summary
+- Learned file copying and moving.
+- Learned file and empty-folder deletion.
+- Learned how to read the beginning and end of files.
+- Learned how to view long text files.
+
+**Status:** Commands studied and understood. Practical execution not yet confirmed.
