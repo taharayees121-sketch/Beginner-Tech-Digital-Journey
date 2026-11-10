@@ -115,3 +115,78 @@ Both computers belong to the same local network and can communicate directly, as
 - 255.255.255.0 is equivalent to /24.
 - A router connects different networks.
 - ARP helps devices discover local IPv4-to-MAC address mappings.
+
+## Networking Revision – Days 1–4
+
+### Revision topics
+
+Today I revised four networking topics that I found difficult during the previous quiz.
+
+### 1. Ping vs IPConfig
+
+- `ping` – Tests whether another device or server can be reached.
+- `ipconfig` – Displays network configuration details such as IP address, subnet mask and default gateway.
+
+Examples:
+
+```powershell
+ping 8.8.8.8
+ipconfig
+```
+
+### 2. Default Gateway
+
+- A default gateway is usually the router's local IP address.
+- It forwards traffic from the local network to other networks.
+- When a computer communicates with an external network, it normally sends traffic to its default gateway first.
+
+### 3. ARP – Address Resolution Protocol
+
+- ARP helps discover the MAC address associated with a local IPv4 address.
+- A device broadcasts an ARP request on the local network.
+- The device with the matching IPv4 address responds with its MAC address.
+
+**Remember:** ARP connects an IPv4 address to a MAC address on a local network.
+
+### 4. DNS Lookup vs Traceroute
+
+- `nslookup` – Checks DNS name resolution and finds the IP address associated with a domain name.
+- `tracert` – Shows the route taken by network traffic and the intermediate hops.
+
+Examples:
+
+```powershell
+nslookup google.com
+tracert google.com
+```
+
+### Commands Revised
+
+| Command | Purpose |
+|---|---|
+| `ipconfig` | Display network settings |
+| `ping 8.8.8.8` | Test connectivity |
+| `nslookup google.com` | Check DNS resolution |
+| `tracert google.com` | Trace network route |
+
+### What I learned
+
+- How to distinguish connectivity testing from checking network settings.
+- How a default gateway connects local and external networks.
+- How ARP discovers MAC addresses.
+- How DNS lookup and traceroute serve different purposes.
+- An intermediate timeout in traceroute does not automatically mean the destination is unreachable.
+
+### Quiz Result
+
+- Previous networking revision quiz: 6/10.
+- Identified four areas requiring additional revision.
+- Revisited those concepts using practical examples and explanations.
+
+### Next Steps
+
+- Learn TCP vs UDP.
+- Understand port numbers.
+- Learn common networking protocols.
+- Practise networking commands.
+
