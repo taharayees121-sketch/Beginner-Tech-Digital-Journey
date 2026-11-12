@@ -115,3 +115,65 @@ less notes.txt
 - Learned how to view long text files.
 
 **Status:** Commands studied and understood. Practical execution not yet confirmed.
+## Linux Learning Progress — November 12, 2026
+
+### Linux Filesystem and Navigation
+- `/` — Root directory.
+- `/home/tahar` — My home directory.
+- `~` — Shortcut for my home directory.
+- `.` — Current directory.
+- `..` — Parent directory.
+- `cd` — Change directory.
+- `ls` — List files and folders.
+- Located my GitHub repository at `~/Beginner-Tech-Digital-Journey`.
+- Located my existing Linux notes at `linux/linux-Notes.md`.
+
+### Linux File Permissions
+- `r` — Read (4).
+- `w` — Write (2).
+- `x` — Execute (1).
+- `u` — Owner.
+- `g` — Group.
+- `o` — Others.
+
+Permission number examples:
+- `7` = Read + Write + Execute.
+- `6` = Read + Write.
+- `5` = Read + Execute.
+- `4` = Read only.
+- `644` = `rw-r--r--`.
+- `755` = `rwxr-xr-x`.
+
+### Commands Learned
+- `chmod` — Change file permissions.
+- `chown` — Change file ownership.
+- `stat` — Display detailed file information.
+- `sudo` — Run authorised commands with administrator privileges.
+- `whoami` — Display current username.
+- `id` — Display user ID and group information.
+- `sudo apt update` — Refresh Ubuntu package information.
+
+### Practical Exercises Completed
+- [x] Checked my home directory using `pwd`.
+- [x] Listed files using `ls`.
+- [x] Located my existing GitHub repository.
+- [x] Inspected my existing Linux folder.
+- [x] Read my Linux notes using `cat`.
+- [x] Successfully executed `sudo apt update`.
+- [x] Checked my username using `whoami`.
+- [x] Checked UID, GID and group memberships using `id`.
+
+### My Ubuntu User Information
+- Username: `tahar`.
+- UID: `1000`.
+- Primary GID: `1000`.
+- Member of the `sudo` group.
+- 54 packages were reported as available for upgrade.
+
+### Next Topics
+- [ ] Practise inspecting permissions with `ls -l`.
+- [ ] Learn file ownership with `stat`.
+- [ ] Practise safe permission changes.
+- [ ] Continue Linux troubleshooting.
+
+**Status:** Linux filesystem navigation, permissions, user identity and administrator commands studied. Practical permission changes and ownership changes still need practice.
